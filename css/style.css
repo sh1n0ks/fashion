@@ -229,6 +229,7 @@ label{
   padding-top:15px;
   position:fixed;
   background:#000;
+  display:none;
 }
 .header-cover{
   text-align:center;
