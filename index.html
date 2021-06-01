@@ -2,13 +2,13 @@
 <html lang="ja" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
     <title>SAMPLE COMPANY</title>
     <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/reset.css">
   </head>
-  <body>
+  <body ontouchstart=””>
     <div class="wrapper">
       <div class="sidebar">
         <div class="side-contents">
@@ -21,7 +21,6 @@
             <li><a href="#project-jamp">PROJECT</a></li>
             <li><a href="#company-jamp">COMPANY</a></li>
           </ul>
-
           <div class="side-icon">
             <a href="#"><i class="fab fa-facebook-f"></i></a>
             <a href="#"><i class="fab fa-twitter"></i></a>
@@ -30,8 +29,32 @@
           </div>
         </div>
       </div>
-
       <div class="main-wrapper">
+        <!-- msf-header -->
+        <div class="header">
+          <div class="header-cover">
+            <img class="header-img" src="img/logo.png" alt="header-img">
+            <label for="input"><i class="fas fa-bars fa"></i></label>
+          </div>
+          <input class="check" type="checkbox" id="input">
+          <div class="header-nav">
+            <ul class="header-menu">
+              <li><a href="#"><i class="fas fa-chevron-right"></i>TOP</a></li>
+              <li><a href="#"><i class="fas fa-chevron-right"></i>MESSAGE</a></li>
+              <li><a href="#"><i class="fas fa-chevron-right"></i>GALLERY</a></li>
+              <li><a href="#"><i class="fas fa-chevron-right"></i>BRAND</a></li>
+              <li><a href="#"><i class="fas fa-chevron-right"></i>PROJECT</a></li>
+              <li><a href="#"><i class="fas fa-chevron-right"></i>COMPANY</a></li>
+            </ul>
+            <div class="header-icon">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+        <!-- smf-headerここまで -->
         <div class="top">
           <div class="top-photo">
             <img src="img/mainImg.jpg" alt="top">
@@ -121,7 +144,6 @@
         </div>
         <div class="copywright">
           <p>Copyright(c) 2016 Sample Inc. All Rights Reserved. Design by <a href="http://f-tpl.com/" target="_blank">ttp://f-tpl.com</a></p>
-
         </div>
       </div>
     </div>
