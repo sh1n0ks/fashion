@@ -94,6 +94,9 @@ a{
 	flex:auto;
 	width:33%;
 }
+.conan{
+  width:100%;
+}
 .brand{
 	text-align:center;
   padding-bottom:5vh;
